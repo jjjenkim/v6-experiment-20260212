@@ -1,0 +1,58 @@
+# General
+.DS_Store
+.npm-cache/
+.npm-cache-local/
+.npm_temp_cache/
+.playwright-mcp/
+.agent/
+.git/
+
+# Standard Junk Folders (Recursive)
+node_modules/
+.venv/
+venv/
+venv_translate/
+__pycache__/
+dist/
+build/
+.next/
+.cache/
+
+# Files
+*.py[cod]
+*.log
+.env
+.env.*
+!.env.example
+
+# Secrets & Configs
+gcp-oauth.keys.json
+gcloud_config_local/
+/.gdrive-server-credentials.json
+CLAUDE.md
+CLAUDE_KO.md
+
+# Large Binaries
+google-cloud-cli*
+google-cloud-sdk/
+*.tar.gz
+*.zip
+*.7z
+
+# Local workspaces (keep Pages deploy repo clean)
+/projects/
+/reports/
+/review_reports/
+/scripts/
+/shared/
+/gemini_CLI/
+/logs/
+/JEN Group🤍/
+
+# Accidental root build artifacts (real deploy files live in /assets + /index.html)
+/index copy.html
+/index-*.js
+/index-*.css
+
+# One-off local helper scripts
+/convert_md_to_html.py
